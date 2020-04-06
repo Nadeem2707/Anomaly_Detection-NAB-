@@ -2,7 +2,7 @@
 
 The Numenta Anomaly Benchmark (NAB) is a novel benchmark for evaluating algorithms for anomaly detection in streaming, online applications. It is comprised of over 50 labeled real-world and artificial timeseries data files plus a novel scoring mechanism designed for real-time applications. All of the data and code is fully open-source, with extensive documentation, and a scoreboard of anomaly detection algorithms: github.com/numenta/NAB. The full dataset is included here, but please go to the repo for details on how to evaluate anomaly detection algorithms on NAB.
 
-NAB Data Corpus
+# NAB Data Corpus
 
 The NAB corpus of 58 timeseries data files is designed to provide data for research in streaming anomaly detection. It is comprised of both real-world and artifical timeseries data containing labeled anomalous periods of behavior. Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.
 
@@ -15,11 +15,11 @@ realAWSCloudwatch/
 
 AWS server metrics as collected by the AmazonCloudwatch service. Example metrics include CPU Utilization, Network Bytes In, and Disk Read Bytes.
 
-realAdExchange/
+- realAdExchange/
 
 Online advertisement clicking rates, where the metrics are cost-per-click (CPC) and cost per thousand impressions (CPM). One of the files is normal, without anomalies.
 
-realKnownCause/
+- realKnownCause/
 
 This is data for which we know the anomaly causes; no hand labeling.
 
@@ -54,22 +54,22 @@ Minnesota Department of Transportation.
 Included metrics include occupancy, speed, and travel time from specific
 sensors.
 
-realTweets/
+- realTweets/
 
 A collection of Twitter mentions of large publicly-traded companies
 such as Google and IBM. The metric value represents the number of mentions
 for a given ticker symbol every 5 minutes.
 
-Artificial data
-artificialNoAnomaly/
+# Artificial data
+- artificialNoAnomaly/
 
 Artifically-generated data without any anomalies.
 
-artificialWithAnomaly/
+- artificialWithAnomaly/
 
 Artifically-generated data with varying types of anomalies.
 
-Acknowledgments
+# Acknowledgments
 We encourage you to publish your results on running NAB, and share them with us at nab@numenta.org. Please cite the following publication when referring to NAB:
 
 Lavin, Alexander and Ahmad, Subutai. "Evaluating Real-time Anomaly Detection Algorithms – the Numenta Anomaly Benchmark", Fourteenth International
